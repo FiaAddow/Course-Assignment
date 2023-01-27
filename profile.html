@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <title>profile Page</title>
+    <link rel="stylesheet" href="dist/styles.css">
+    <title>Profile Page</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="index.html">WagiBuug</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -18,14 +18,11 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="login.html">Log in</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                    </li>
+                        <a class="nav-link" href="profile.html">My page</a>
+                    </li>  
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -34,34 +31,7 @@
             </div>
         </div>
     </nav>
-    <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <img id="profile-image" class="profile-image" alt="Profile Image">
-          </div>
-          <div class="col-md-9">
-            <h1 id="username"></h1>
-            <p>Name: <span id="name"></span></p>
-            <p>Location: <span id="location"></span></p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-3">
-            <h2>Contacts</h2>
-            <ul id="contacts"></ul>
-          </div>
-          <div class="col-md-9">
-            <h2>Posts</h2>
-            <div id="posts" class="posts"></div>
-            <h2>New Post</h2>
-            <form>
-              <div class="form-group">
-                <textarea id="new-post" class="form-control" rows="5"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Post</button>
-            </form>
-          </div>
-        </div>
-      </div>      
+    <main>
+        
+    </main>   
 </body>
-</html>

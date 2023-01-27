@@ -1,6 +1,7 @@
-@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-
-$primary: red;
-$font-family-base: 'Open Sans', sans-serif;
+$primary: #DCCDF1;
+$font-family-base: 'Padauk', sans-serif;
 $body-bg: lightblue;
 $btn-margin-y: 1rem;
+
+
+@import '../node_modules/bootstrap/scss/bootstrap';
