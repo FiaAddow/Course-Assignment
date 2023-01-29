@@ -1,7 +1,29 @@
-$primary: #DCCDF1;
+$primary: #B6D7EF;
 $font-family-base: 'Padauk', sans-serif;
-$body-bg: lightblue;
+$body-bg: #DCCDF1;
 $btn-margin-y: 1rem;
+$colours: (
+  "primary": #c270b5,
+  "secondary": #6a6a68,
+);
+
+
+
+p {
+    color: map-get($colours, secondary);
+}
+
+h5 {
+    color: map-get($colours, primary);
+}
+
+th{
+    color: map-get($colours, primary);
+}
+
+a{
+    
+}
 
 
 @import '../node_modules/bootstrap/scss/bootstrap';
